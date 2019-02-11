@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+.root{
+    width: 1200px;
+}
+
+.header{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.headerImage{
+    width: 10%;
+}
+
+.headerText{
+    width: 79%;
+    padding-left: 30px;
+}
+
+#timeStamp{
+    color: grey;
+    font-size: 25px;
+}
+
+.header p{
+    width: 50%;
+}

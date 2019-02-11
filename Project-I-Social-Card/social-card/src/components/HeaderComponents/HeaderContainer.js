@@ -6,15 +6,17 @@ import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
 
 
-function HeaderContainer(){
+function headerContainer() {
     return (
-        <div className ="header">
-        <ImageThumbnail />
-        <HeaderTitle />
-        <HeaderContent />
+        <div className="header">
+            <ImageThumbnail />
+            <div className="headerText">
+                <HeaderTitle />
+                <HeaderContent />
+            </div>
         </div>
-        
+
     );
 }
 
-export default HeaderContainer;
+export default headerContainer;
