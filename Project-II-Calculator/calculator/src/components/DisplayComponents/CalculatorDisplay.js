@@ -1,11 +1,11 @@
 import React from 'react';
 import './Display.css';
-import NumberButton from './components/ButtonComponents/NumberButton';
 
-function CalculatorDisplay (){
+
+const CalculatorDisplay = props =>{
     return(
-        <div className="calcContainer">
-        <NumberButton />
+        <div className={props.totalDisplayStyle}>
+        <h2>Total</h2>
         </div>
     );
 }

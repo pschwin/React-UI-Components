@@ -1,0 +1,10 @@
+.calc-container{
+    width: 1200px;
+    
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
