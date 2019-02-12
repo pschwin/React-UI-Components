@@ -5,13 +5,13 @@ button{
 
 .number-button {
     width: 33.333333333%;
-    background-color: green;
-
+    
 }
 
 .number-button button{
     width: 100%;
     height: 100px;
+    
 }
 
 .action-button{
@@ -24,8 +24,6 @@ button{
 }
 
 .operators{
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 

@@ -18,10 +18,12 @@
     width: 10%;
     display: flex;
     flex-wrap: wrap;
+   
 }
 
 .display-row{
     width: 100%;
+    
    
 }
 
