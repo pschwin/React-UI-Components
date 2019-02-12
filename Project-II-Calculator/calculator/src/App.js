@@ -3,6 +3,7 @@ import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import OperateButtons from './components/ButtonComponents/OperateButtons';
 
 
 
@@ -23,6 +24,13 @@ const App = () => {
       <NumberButton buttonStyle="number-button" text="8"/>
       <NumberButton buttonStyle="number-button" text="9"/>
       <ActionButton text ="0"/>
+    </div>
+    <div className="operators">
+    <OperateButtons buttonStyle="operateIt" text="/" />
+    <OperateButtons buttonStyle="operateIt" text="X" />
+    <OperateButtons buttonStyle="operateIt" text="-" />
+    <OperateButtons buttonStyle="operateIt" text="+" />
+    <OperateButtons buttonStyle="operateIt" text="=" />
     </div>
     </div>
   );
