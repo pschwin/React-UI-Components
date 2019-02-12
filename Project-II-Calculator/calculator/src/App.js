@@ -11,8 +11,10 @@ const App = () => {
   return (
 
     <div className ="calc-container">
+    <div className="display-row">
+    <CalculatorDisplay totalDisplayStyle="total"/>
+    </div>
     <div className="numbers">
-      <CalculatorDisplay totalDisplayStyle="total"/>
       <ActionButton text="clear"/>
       <NumberButton buttonStyle="number-button" text="1"/>
       <NumberButton buttonStyle="number-button" text="2"/>
@@ -32,6 +34,7 @@ const App = () => {
     <OperateButtons buttonStyle="operateIt" text="+" />
     <OperateButtons buttonStyle="operateIt" text="=" />
     </div>
+    
     </div>
   );
 };

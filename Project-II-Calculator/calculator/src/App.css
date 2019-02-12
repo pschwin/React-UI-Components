@@ -1,6 +1,7 @@
 .calc-container{
-    width: 100%;
+    width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     justify-content: center;
     margin-top:50px;;
@@ -10,5 +11,17 @@
 .numbers{
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
+}
+
+.operators{
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-row{
+    width: 100%;
+   
 }
 
