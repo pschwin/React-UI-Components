@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+
+.cardContainer{
+    border: 2px solid grey;
+    margin-left: 15%;
+    margin-right: 5%;
+    
+}
+
+.cardContainer img{
+    width: 100%;
+}
+
+h3{
+    font-size:40px;
+    padding: 10px;
+    margin: 0;
+}
+
+.cardContent p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+

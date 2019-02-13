@@ -1,0 +1,12 @@
+.total{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 40px;
+    width: 100%;
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.total h2{
+    padding-right: 50px;
+}
